@@ -1,0 +1,4 @@
+#pgver postgresql17 postgresql18 postgrespro-1c-18 etc
+specsubst: pgver
+tar: v@version@:pgraft
+diff: v@version@:pgraft pgraft
