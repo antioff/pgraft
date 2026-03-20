@@ -1,6 +1,8 @@
 module pgraft_go
 
-go 1.21
+go 1.23
+
+toolchain go1.24.12
 
 require go.etcd.io/raft/v3 v3.6.0
 
